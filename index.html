@@ -23,7 +23,7 @@ body[unresolved] {opacity: 0; display: block; overflow: auto; position: relative
             align-items: center;
             justify-content: center;
             padding: 20px;
-            overflow-y: auto;
+            overflow: auto;
             position: relative;
         }
 
@@ -256,23 +256,23 @@ body[unresolved] {opacity: 0; display: block; overflow: auto; position: relative
 
         <!-- Stage 1: Proposal -->
         <div id="stage1" class="fade-in">
-            <h1>Hey <span id="partnerName">Niyati</span> <img src="#" class="emoji-icon" alt="💖"></h1>
+            <h1>Hey <span id="partnerName">Niyati</span> <h1 class="emoji-icon">💖</h1></h1>
             <p id="proposalMsg">Will you be my Valentine?</p>
             <div class="btn-group">
-                <button class="btn-yes" onclick="nextStage()">Hanji <img src="#" class="emoji-icon" alt="❤️"></button>
+                <button class="btn-yes" onclick="nextStage()">Hanji <h1 class="emoji-icon"> ❤️</h1></button>
                 <button class="btn-no" id="noBtn" onmouseover="moveNoButton()" onclick="moveNoButton()" style="position: fixed; left: 572.307px; top: 682.676px; z-index: 1000;">Nahi <img src="./A Question for You_files/see-no-evil-monkey_1f648.png" class="emoji-icon" alt="🙈"></button>
             </div>
-            <p id="pleadMessage" class="plead-msg">Please... <img src="./A Question for You_files/pleading-face_1f97a.png" class="emoji-icon" alt="🥺"><img src="./A Question for You_files/red-heart_2764-fe0f.png" class="emoji-icon" alt="❤️"></p>
+            <p id="pleadMessage" class="plead-msg">Please... <h1 class="emoji-icon">🥺</h1><h1 class="emoji-icon" >❤️</h1></p>
         </div>
 
         <!-- Stage 2: Confirmation -->
         <div id="stage2" class="hidden">
             <video src="https://offerswall.in/valentine/kiss.mp4" autoplay="" loop="" muted="" playsinline="" class="valentine-media"></video>
-            <h1>I Knew It! <img src="./A Question for You_files/red-heart_2764-fe0f.png" class="emoji-icon" alt="❤️"></h1>
-            <p> Aap mujhse pyaar karte ho! hehe <img src="./A Question for You_files/see-no-evil-monkey_1f648.png" class="emoji-icon" alt="🙈"><br>
+            <h1>I Knew It! <h1 class="emoji-icon" >❤️</h1></h1>
+            <p> Aap mujhse pyaar karte ho! hehe <h1 class="emoji-icon" >🙈</h1><br>
                 accha ab niche button pe click karo
             </p>
-            <button class="btn-yes" onclick="goToShayari()">For you <img src="./A Question for You_files/love-letter_1f48c.png" class="emoji-icon" alt="💌"></button>
+            <button class="btn-yes" onclick="goToShayari()">For you <h1 class="emoji-icon" >💌</h1></button>
         </div>
 
         <!-- Stage 3: Shayari -->
