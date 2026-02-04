@@ -23,7 +23,7 @@ body[unresolved] {opacity: 0; display: block; overflow: auto; position: relative
             align-items: center;
             justify-content: center;
             padding: 20px;
-            overflow: auto;
+            overflow: scroll;
             position: relative;
         }
 
@@ -33,7 +33,7 @@ body[unresolved] {opacity: 0; display: block; overflow: auto; position: relative
             border-radius: 25px;
             box-shadow: 0 15px 35px rgba(255, 75, 110, 0.15);
             width: 100%;
-            max-width: 450px;
+            max-width: 600px;
             text-align: center;
             position: relative;
             min-height: 400px;
@@ -180,13 +180,14 @@ body[unresolved] {opacity: 0; display: block; overflow: auto; position: relative
 
         .shayari-box {
             background: #fff0f3;
-            padding: 1.5rem;
+            padding: 3rem;
             border-radius: 15px;
             border: 1px dashed #ff4b6e;
             margin-bottom: 2rem;
             font-style: italic;
             color: #d6335c;
             white-space: pre-wrap;
+            overflow : auto;
         }
 
         .heart-icon {
@@ -257,11 +258,11 @@ body[unresolved] {opacity: 0; display: block; overflow: auto; position: relative
 
         <!-- Stage 1: Proposal -->
         <div id="stage1" class="fade-in">
-            <h1>Hey <span id="partnerName">Niyati</span> <h3 class="emoji-icon">💖</h3></h1>
+            <h1>Hey Niyati<span id="partnerName"></span> <h3 class="emoji-icon">💖</h3></h1>
             <p id="proposalMsg">Will you be my Valentine?</p>
             <div class="btn-group">
                 <button class="btn-yes" onclick="nextStage()">Hanji <h3 class="emoji-icon"> ❤️</h3></button>
-                <button class="btn-no" id="noBtn" onmouseover="moveNoButton()" onclick="moveNoButton()" style="position: fixed; left: 572.307px; top: 682.676px; z-index: 1000;">Nahi <img src="./A Question for You_files/see-no-evil-monkey_1f648.png" class="emoji-icon" alt="🙈"></button>
+                <button class="btn-no" id="noBtn" onmouseover="moveNoButton()" onclick="moveNoButton()" style="position: fixed; left: 572.307px; top: 682.676px; z-index: 1000;">Nahi <h3 class="emoji-icon"> 🙈</h3></button>
             </div>
             <p id="pleadMessage" class="plead-msg">Please... <h3 class="emoji-icon">🥺</h3><h3 class="emoji-icon" >❤️</h3></p>
         </div>
